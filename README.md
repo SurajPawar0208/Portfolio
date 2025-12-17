@@ -1,9 +1,13 @@
+ SurajPawar0208-patch-1
 # ⚡ Developer Portfolio – React & Vite
+=======
+HEAD
+# React + Vite
+main
 
 A modern, responsive developer portfolio built with **React** and **Vite**, designed to showcase projects, skills, and experience in a clean single‑page layout.  
 Use it as your personal portfolio to highlight your work in React, Node.js, MongoDB, and more.[web:20]
 
----
 
 ## ✨ Features
 
@@ -14,7 +18,6 @@ Use it as your personal portfolio to highlight your work in React, Node.js, Mong
 - Easy customization with a single `data` object in `App.jsx`.
 - Built with **React + Vite** for fast development and builds.[web:18]
 
----
 
 ## 🧱 Tech Stack
 
@@ -23,7 +26,6 @@ Use it as your personal portfolio to highlight your work in React, Node.js, Mong
 - **Language:** JavaScript (ES6+)
 - **Version Control:** Git & GitHub
 
----
 
 ## 🚀 Getting Started
 
@@ -66,8 +68,6 @@ Key sections inside `App.jsx`:
 - `Projects` – Cards for each project with description and GitHub links
 - `Contact` – Email, GitHub, and LinkedIn links.
 
----
-
 ## 🎯 Customization
 
 Most content can be customized in the `data` object at the top of `App.jsx`:
@@ -98,3 +98,7 @@ You can:
 - Replace demo projects with your own GitHub repositories.
 - Update skills to match your stack (React, MongoDB, Node.js, Oracle, etc.).
 - Add or remove sections as needed.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Portfolio
+My Personal Information
+main

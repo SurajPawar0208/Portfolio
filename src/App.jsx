@@ -34,7 +34,7 @@ const data = {
       tech: "React JS",
       description:
         "Responsive Netflix‑style UI with movie categories, hover effects, and trailer modal.",
-      link: "https://github.com/yourusername/netflix-clone",
+      link: "https://github.com/SurajPawar0208/NetFlix-Clone",
     },
     {
       title: "Task Manager App",

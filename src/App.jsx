@@ -3,37 +3,39 @@ import React from "react";
 const data = {
   name: "Suraj Pawar",
   role: "Full Stack Developer",
-  tagline: "Strong proficiency in JavaScript, React, HTML/CSS, and backend tools like Node.js or SQL enables effective full stack development. Problem-solving under deadlines, Agile methodologies, and quick learning of new technologies are essential. Familiarity with Git, APIs, and frameworks like Tailwind CSS supports collaborative projects.",
+  tagline: "I’m an aspiring software engineer, building practical projects with Java, MERN, and a curiosity for new tech",
   about:
-    "Strong proficiency in JavaScript, React, HTML/CSS, and backend tools like Node.js or SQL enables effective full stack development. Problem-solving under deadlines, Agile methodologies, and quick learning of new technologies are essential. Familiarity with Git, APIs, and frameworks like Tailwind CSS supports collaborative projects.",
+    "Strong proficiency in JavaScript, React, HTML/CSS, and backend tools like Node.js , Java , SQL enables effective full stack development. Problem-solving under deadlines  and quick learning of new technologies are essential. Familiarity with Git, APIs , PostMan and frameworks like Tailwind CSS supports collaborative projects.",
   location: "Pune, India",
-  email: "sp97637261@gmail.com",
+  email: "https://mail.google.com/mail/u/1/#inbox?compose=CllgCKCHTwXWkjCsRQJplMkpWkWlCBNptnGsDdTlMpNJhbGqDCgRLpCMtGMXvNZmHLkldlqZcPL",
   github: "https://github.com/SurajPawar0208",
   linkedin: "https://www.linkedin.com/in/surajjjj/",
   skills: [
+    "Java",
     "JavaScript (ES6+)",
     "React.js",
     "Node.js",
     "Express.js",
     "MongoDB",
-    "SQL / Oracle",
-    "HTML5 & CSS3",
+    "HTML & CSS",
+     "SQL & Oracle",
     "Tailwind / Bootstrap",
     "Git & GitHub",
+    "PostMan","GenAI Tools"
   ],
   projects: [
     {
-      title: "Ecommerce Store",
+      title: "StudHub - Student Management System",
       tech: "React, Node.js, MongoDB",
       description:
-        "Full‑stack ecommerce web app with product listing, cart, and checkout flow.",
-      link: "https://github.com/SurajPawar0208/genzmode-shop-flow",
+        "Full‑stack Student Management System web-app with CRUD operations, authentication, and responsive design.",
+      link: "https://github.com/SurajPawar0208/Student_Management_System",
     },
     {
       title: "Netflix Clone",
       tech: "React JS",
       description:
-        "Responsive Netflix‑style UI with movie categories, hover effects, and trailer modal.",
+        "Responsive Netflix‑style UI with movie categories, hover effects, and trailer modal with Routing Of Pages .",
       link: "https://github.com/SurajPawar0208/NetFlix-Clone",
     },
     {
@@ -96,14 +98,12 @@ function Section({ id, title, children }) {
     </section>
   );
 }
-
 function About() {
   return (
     <Section id="about" title="About">
       <p>{data.about}</p>
       <p>
-        Based in <strong>{data.location}</strong>. Loves working on ecommerce,
-        entertainment, and dashboard style apps.
+        Based in <strong>{data.location}</strong>
       </p>
     </Section>
   );
@@ -158,13 +158,13 @@ function Contact() {
         out anytime.
       </p>
       <div className="contact-links">
-        <a href={`data.email`} className="btn btn-primary">
+        <a href={data.email} className="btn btn-primary">
           Email Me
         </a>
-        <a href={data.github} target="_blank" rel="noreferrer">
+        <a href={data.github} className="btn btn-primary" target="_blank" rel="noreferrer">
           GitHub
         </a>
-        <a href={data.linkedin} target="_blank" rel="noreferrer">
+        <a href={data.linkedin} className="btn btn-primary" target="_blank" rel="noreferrer">
           LinkedIn
         </a>
       </div>
@@ -176,7 +176,8 @@ function Footer() {
   return (
     <footer className="footer">
       <p>
-      <h1>{data.name}.</h1>
+      <h1>{data.name}</h1>     
+      Copyright © 2026. All rights reserved.
       </p>
     </footer>
   );
